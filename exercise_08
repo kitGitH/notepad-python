@@ -1,0 +1,21 @@
+Exercise 08:
+# Subset for rows in South Atlantic or Mid-Atlantic regions
+south_mid_atlantic = homelessness[(homelessness['region']=="South Atlantic") | (homelessness['region']=="Mid-Atlantic")]
+# See the result
+print(south_mid_atlantic)
+
+Result:
+
+   region                 state  individuals  family_members  state_pop
+7   South Atlantic              Delaware        708.0           374.0     965479
+8   South Atlantic  District of Columbia       3770.0          3134.0     701547
+9   South Atlantic               Florida      21443.0          9587.0   21244317
+10  South Atlantic               Georgia       6943.0          2556.0   10511131
+20  South Atlantic              Maryland       4914.0          2230.0    6035802
+30    Mid-Atlantic            New Jersey       6048.0          3350.0    8886025
+32    Mid-Atlantic              New York      39827.0         52070.0   19530351
+33  South Atlantic        North Carolina       6451.0          2817.0   10381615
+38    Mid-Atlantic          Pennsylvania       8163.0          5349.0   12800922
+40  South Atlantic        South Carolina       3082.0           851.0    5084156
+46  South Atlantic              Virginia       3928.0          2047.0    8501286
+48  South Atlantic         West Virginia       1021.0           222.0    1804291
